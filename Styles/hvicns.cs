@@ -19,11 +19,11 @@ html,body{
   margin: 0 10px;
   display: inline-flex;
   text-decoration: none;
-  border-radius: 50%;
-  transition: all 0.3s;
-  box-shadow: -3px -3px 7px #ffffff,
+  transition: all 0.3s ease;
+  box-shadow: -3px -3px 7px #ffffff;
               3px 3px 5px #ceced1;
 }
+
 .icons a:hover:before{
   content: "";
   position: absolute;
@@ -33,7 +33,7 @@ html,body{
   right: 0;
   border-radius: 50%;
   background: #ecf0f3;
-  box-shadow: inset -3px -3px 7px #ffffff,
+  box-shadow: inset -3px -3px 7px #ffffff;
               inset 3px 3px 5px #ceced1;
 }
 .icons a i{
@@ -47,6 +47,7 @@ html,body{
 }
 .icons a:hover i{
   transform: scale(0.9);
+
 }
 .icons a.fb i{
   color: #4267B2;
